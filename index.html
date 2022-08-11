@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="title" content="e-school">
+	<meta name="description" content="e-school is a learning website">
+	<meta name="keywords" content="learning, course, mentor">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="5 days">
+	<meta name="author" content="Md Nym">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<!-- Title -->
+	<title>Burger House</title>
+
+	<!-- favicon link -->
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+
+	<!-- font family -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+	<!-- font awesome -->
+	<script src="https://kit.fontawesome.com/9cb447ff9f.js" crossorigin="anonymous"></script>
+
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="assets/css/bootstrap-icons.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!-- Media CSS -->
+	<link rel="stylesheet" href="assets/css/media.css">
+
+
+</head>
+<body>
+
+	<header>
+		<div class="container">
+			<!-- navbar start -->
+			<nav class="navbar navbar-expand-lg cnav">
+			  <div class="container-fluid px-0">
+			    <a class="navbar-brand" href="index.html">
+			    	<img src="assets/images/logo.png" class="img-fluid clogo" alt="logo">
+			    </a>
+
+			    <!-- Toggle start -->
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#m_nav" aria-controls="m_nav" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <!-- Toggle end -->
+			    
+			    <!-- menu start -->
+			    <div class="collapse navbar-collapse cmenu" id="m_nav">
+			      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+			        <li class="nav-item">
+			          <a class="nav-link hov active" aria-current="page" href="#">Books</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link hov" href="#">Courses</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link hov" href="#">Others</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link hov" href="#">Blog</a>
+			        </li>
+			        <li class="nav-item">
+
+			          <!-- modal start -->
+			          <!-- Button trigger modal -->
+						<button type="button" class="btn btn_bg btn_style" data-bs-toggle="modal" data-bs-target="#nav_signin_modal">
+						  Sign in
+						</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="nav_signin_modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="nav_signin_modalLabel" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="nav_signin_modalLabel">Sign in</h5>
+						        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						      </div>
+						      <div class="modal-body">
+						        <!-- sign-in form start -->
+						        <form>
+								  <!-- Email input -->
+								  <div class="form-outline mb-4">
+								    <input type="email" id="form2Example1" class="form-control" />
+								    <label class="form-label" for="form2Example1">Email address</label>
+								  </div>
+
+								  <!-- Password input -->
+								  <div class="form-outline mb-4">
+								    <input type="password" id="form2Example2" class="form-control" />
+								    <label class="form-label" for="form2Example2">Password</label>
+								  </div>
+
+								  <!-- 2 column grid layout for inline styling -->
+								  <div class="row mb-4">
+								    <div class="col d-flex justify-content-center">
+								      <!-- Checkbox -->
+								      <div class="form-check">
+								        <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+								        <label class="form-check-label" for="form2Example31"> Remember me </label>
+								      </div>
+								    </div>
+
+								    <div class="col">
+								      <!-- Simple link -->
+								      <a href="#!">Forgot password?</a>
+								    </div>
+								  </div>
+
+								  <!-- Submit button -->
+								  <div class="d-grid">
+								  	<button type="button" class="btn btn-primary d-block mb-4">Sign in</button>
+								  </div>
+
+								  <!-- Register buttons -->
+								  <div class="text-center">
+								    <p>Not a member? <a href="#!">Register</a></p>
+								    <p>or sign up with:</p>
+								    <button type="button" class="btn btn-link btn-floating mx-1">
+								      <i class="fab fa-facebook-f"></i>
+								    </button>
+
+								    <button type="button" class="btn btn-link btn-floating mx-1">
+								      <i class="fab fa-google"></i>
+								    </button>
+
+								    <button type="button" class="btn btn-link btn-floating mx-1">
+								      <i class="fab fa-twitter"></i>
+								    </button>
+
+								    <button type="button" class="btn btn-link btn-floating mx-1">
+								      <i class="fab fa-github"></i>
+								    </button>
+								  </div>
+								</form>
+						        <!-- sign-in form end -->
+						      </div>
+						    </div>
+						  </div>
+						</div>
+			          <!-- modal end -->
+			        </li>
+			      </ul>
+			    </div>
+			    <!-- menu end -->
+
+			  </div>
+			</nav>
+			<!-- navbar end -->
+		</div>
+	</header>
+
+
+	<section class="main_background">
+		<div class="container">
+			<div class="full_container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6">
+						<div class="single_content content-405 mt-100">
+							<h4>Are you ready to Learn?</h4>
+							<h1 class="mt-10">Learn With fun on <span>any schedule</span></h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.</p>
+							<button class="btn btn_bg btn_style btn_shd">Get Started</button>
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-6">
+						<div class="single_content">
+							<div class="bg_img">
+								<img src="assets/images/Frame.png" alt="Frame">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- presentation start -->
+	<section class="presentation">
+		<div class="container">
+			<div class="row">
+
+				<!-- single item start -->
+				<div class="col-lg-3 col-md-3">
+					<div class="single_topic">
+						<div class="topic_img">
+							<img src="assets/images/icon1.png" alt="icon">
+						</div>
+						<h2>1500+ Topic</h2>
+						<h4>Learn Anythings</h4>
+					</div>
+				</div>
+				<!-- single item end -->
+
+				<!-- single item start -->
+				<div class="col-lg-3 col-md-3">
+					<div class="single_topic">
+						<div class="topic_img">
+							<img src="assets/images/icon2.png" alt="icon">
+						</div>
+						<h2>1800+ Students</h2>
+						<h4>Learn Anythings</h4>
+					</div>
+				</div>
+				<!-- single item end -->
+
+				<!-- single item start -->
+				<div class="col-lg-3 col-md-3">
+					<div class="single_topic">
+						<div class="topic_img">
+							<img src="assets/images/icon3.png" alt="icon">
+						</div>
+						<h2>9K+ Test Token</h2>
+						<h4>Learn Anythings</h4>
+					</div>
+				</div>
+				<!-- single item end -->
+
+				<!-- single item start -->
+				<div class="col-lg-3 col-md-3">
+					<div class="single_topic">
+						<div class="topic_img">
+							<img src="assets/images/icon4.png" alt="icon">
+						</div>
+						<h2>2000+ Student</h2>
+						<h4>Learn Anythings</h4>
+					</div>
+				</div>
+				<!-- single item end -->
+
+			</div>
+		</div>
+	</section>	
+	<!-- presentation end -->
+
+
+
+
+	<!-- online courses start -->
+	<section class="online_course">
+		<div class="container">
+
+			<div class="main_header">
+				<h2>Online Courses</h2>
+			</div>
+			<div class="row">
+				
+				<!-- single course start -->
+				<div class="col-lg-4 col-md-4">
+					<div class="single_course">
+						<div class="sc_img">
+							<img src="assets/images/service1.jpg" alt="courses">
+						</div>
+						<h2>Modern Psychology</h2>
+						<h4>Designation</h4>
+						<button class="btn btn_bg btn_style">Buy Course</button>
+						<ul class="class_details">
+							<li class="f-start"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+							  <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
+							  <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+							</svg><span>Start 20  April, 2021</span></li>
+							<li class="f-end"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+							  <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+							</svg>60 seats</li>
+						</ul>
+					</div>
+				</div>
+				<!-- single course end -->
+
+
+
+				<!-- single course start -->
+				<div class="col-lg-4 col-md-4">
+					<div class="single_course">
+						<div class="sc_img">
+							<img src="assets/images/service2.jpg" alt="courses">
+						</div>
+						<h2>Modern Psychology</h2>
+						<h4>Designation</h4>
+						<button class="btn btn_bg btn_style">Buy Course</button>
+						<ul class="class_details">
+							<li class="f-start"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+							  <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
+							  <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+							</svg><span>Start 20  April, 2021</span></li>
+							<li class="f-end"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+							  <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+							</svg>60 seats</li>
+						</ul>
+					</div>
+				</div>
+				<!-- single course end -->
+
+
+
+				<!-- single course start -->
+				<div class="col-lg-4 col-md-4">
+					<div class="single_course">
+						<div class="sc_img">
+							<img src="assets/images/service3.jpg" alt="courses">
+						</div>
+						<h2>Modern Psychology</h2>
+						<h4>Designation</h4>
+						<button class="btn btn_bg btn_style">Buy Course</button>
+						<ul class="class_details">
+							<li class="f-start"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+							  <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
+							  <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+							</svg><span>Start 20  April, 2021</span></li>
+							<li class="f-end"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+							  <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+							</svg>60 seats</li>
+						</ul>
+					</div>
+				</div>
+				<!-- single course end -->
+
+
+			</div>
+		</div>
+	</section>
+	<!-- online courses end -->
+
+
+
+
+	<section class="Testimonial">
+		<div class="container">
+			<div class="main_header">
+				<h2>Testimonial</h2>
+			</div>
+
+			<div class="test_content">
+				<div class="row">
+					<div class="col-lg-2 col-md-4">
+						<div class="test_img">
+							<img src="assets/images/testimunial.png" alt="testimonial">
+						</div>
+					</div>
+					<div class="col-lg-10 col-md-8">
+						<div class="test_content">
+							<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<div class="single_footer_item">
+						<p>Millions of people of all ages and from around the world are improving their lives with us</p>
+					</div>
+				</div>
+
+
+				<div class="col-lg-2 col-md-2">
+					<div class="single_footer_item float-end">
+						<h3>Course</h3>
+						<ul class="navbar-nav">
+							<li><a href="#">Course</a></li>
+							<li><a href="#">Graphic Design</a></li>
+							<li><a href="#">Web Design</a></li>
+							<li><a href="#">Business</a></li>
+							<li><a href="#">Marketing</a></li>
+							<li><a href="#">Engineering</a></li>
+						</ul>
+					</div>
+				</div>
+
+
+				<div class="col-lg-2 col-md-2">
+					<div class="single_footer_item float-end">
+						<h3>Terms</h3>
+						<ul class="navbar-nav">
+							<li><a href="#">Course</a></li>
+							<li><a href="#">Graphic Design</a></li>
+							<li><a href="#">Web Design</a></li>
+							<li><a href="#">Business</a></li>
+							<li><a href="#">Marketing</a></li>
+							<li><a href="#">Engineering</a></li>
+						</ul>
+					</div>
+				</div>
+
+
+				<div class="col-lg-2 col-md-2">
+					<div class="single_footer_item float-end">
+						<h3>Useful Link</h3>
+						<ul class="navbar-nav">
+							<li><a href="#">Course</a></li>
+							<li><a href="#">Graphic Design</a></li>
+							<li><a href="#">Web Design</a></li>
+							<li><a href="#">Business</a></li>
+							<li><a href="#">Marketing</a></li>
+							<li><a href="#">Engineering</a></li>
+						</ul>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="footer_bottom">
+				<p>Copyright © 2020 <a href="#">md-nym.com</a></p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- all js files -->
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px){
+
+}
+
+/* Small devices (landscap phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px){
+
+	.single_course {
+	    margin: 15px 40px;
+	}
+	.test_img {
+	    float: none;
+	    margin: 0 auto;
+	}
+	.test_content p {
+	    margin-right: 0;
+	    margin-top: 47px;
+	    margin-left: 0;
+	}
+	.single_footer_item {
+	    float: none !important;
+	    text-align: center;
+	}
+	.single_footer_item h3 {
+	    margin-bottom: 9px;
+	    margin-top: 50px;
+	}
+	
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px){
+	.single_content h1{
+		font-size: 37px;
+    	line-height: 50px;
+	}
+	.single_topic{
+		padding: 14px;
+   	 	margin: 0 0px;
+	}
+	section.online_course {
+	    padding: 28px 0 48px 0;
+	}
+	ul.class_details li.f-end {
+	    float: left;
+	    margin-top: 10px;
+	}
+	.main_header {
+	    margin-bottom: 30px;
+	}
+	.test_content p {
+	    margin-right: 0;
+	    margin-left: 0;
+	}
+	.test_img {
+	    margin-top: 29px;
+	}
+
+
+
+
+
+}
+
+/* Large devices (desktop, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px){
+	.test_content p {
+	    margin-right: 0;
+	    margin-left: 0;
+	}
+
+	.test_img {
+	    height: 100%;
+	    width: 107px;
+	}
+	section.online_course {
+		padding: 0px 0 54px 0;
+	}
+	.main_header {
+	    margin-bottom: 25px;
+	}
+
+
+
+
+
+
+}
+
+/* X-Large devices (large desktop, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px){
+	
+}
+
+/* XX-Large devices (larger desktops 1400 and up */
+@media (min-width: 1400px){
+
+}
